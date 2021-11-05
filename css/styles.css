@@ -1,0 +1,114 @@
+body, html {
+  margin: 0 auto;
+  padding-top: 0;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+header {
+  height: 40rem;
+  background-image: url("../images/architect.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#mainNavbar .navbar-nav {
+  text-transform: capitalize;
+  font-size: 1.75rem;
+  letter-spacing: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+#mainNavbar .nav-link {
+  font-size: 1.1rem;
+  letter-spacing: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+#mainNavbar .first {
+  flex-direction: row-reverse;
+}
+
+#mainNavbar .nav-link:hover {
+  color: rgb(85, 34, 136);
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+#mainNavbar a {
+  color: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 0 3rem;
+}
+
+.row .brand {
+  font-size: 2rem;
+ }
+
+.row .third{
+  position: relative;
+  left: 2rem;
+}
+ #brandLogo {
+   width: 5.5rem;
+   position: relative;
+ }
+
+
+.panel {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: relative;
+  top: 3.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  padding: 1.2rem 0;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.main-content {
+  width: 100%;
+  margin: 0 auto;
+  background: #FDFAF6;
+  padding: 5rem;
+  font-family: 'Merriweather', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  /* background-color: black; */
+}
+
+.icon{
+  width: 35%;
+  height: 35%;
+}
+
+.open a {
+  text-decoration: none;
+}
+
+.sidebar p, ul {
+  font-size: 1rem;
+}
+
+.sidebar {
+  background-color: rgb(201, 216, 182, 0.3);
+}
